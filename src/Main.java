@@ -14,6 +14,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         ChessMatch chessMatch = new ChessMatch();
         List<ChessPiece> capturedPieces = new ArrayList<>();
+        System.out.println("Olá");
 
         while (!chessMatch.isCheckMate()) {
             try {
